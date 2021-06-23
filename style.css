@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
 
+
 *{
     font-family: 'Comfortaa', cursive;
     margin: 0px;padding:0;
@@ -73,22 +74,37 @@ html{
     font-size: 3rem;
     font-weight: 400;
     text-align:center ;
+    margin-top: 50px;
+}
+section{
+    padding: 100px;
+    background-color:darkgrey;
 }
 .about{
+    position:relative;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 20px;
-    margin-bottom: 50px;
+    padding: 40px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    height: 400px;
+    width: 800px;
+    text-align:left;
+    margin-left: 280px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:lavender;
 }
-#pic{
-    display:flex;
+.about h1{
+    font-family:
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 100px; 
+    
 }
-#pic img{
-    width: 575px;
-    height:400px;
 
-}
 #intro{
     display:flex;
     flex-direction: column;
@@ -101,17 +117,56 @@ html{
     margin-bottom:20px;
 
 }
+section{
+    padding: 50px;
+}
 #skills{
     display:flex;
     flex-direction: column;
+    padding: 50px;
+    text-align: center;
+    background-color: lightgreen;
+
 }
-#contact{
+.skill-item{
+    padding: 0;
+    height:130px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800px;
+    margin-left: 690px;
+
+}
+
+section{
+    padding: 0;
+
+}
+#works{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width:1600px;
+    text-align: center;
+    background-color: silver;
+}
+.card-image{
+    width: 500px;
+    height: 500px;
+}
+section{
+    padding: 100px;
+    
+}
+#Contact{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
+    background-color:burlywood;
+    color:black;
     padding: 20px;
+    height: 700PX;
 
 }
 .form{
